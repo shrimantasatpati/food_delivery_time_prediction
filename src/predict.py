@@ -4,7 +4,7 @@ import os
 
 def predict(X):
     # Load the model and scaler from the saved file
-    with open(r".\model\model.pickle", 'rb') as f:
+    with open("model/model.pickle", 'rb') as f:
         print("Model Imported")
         model, label_encoders, scaler = pickle.load(f)
     dataprocess = DataProcessing()
