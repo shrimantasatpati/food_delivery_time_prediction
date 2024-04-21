@@ -1,0 +1,9 @@
+xgboost==1.6.2
+scikit-learn==1.2.1
+plotly
+statsmodels
+jupyter
+streamlit
+mlxtend
+seaborn
+holidays
